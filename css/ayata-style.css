@@ -1,0 +1,277 @@
+/* Global styles */
+.partner-slider-two .slick-slide img{
+    height: 34px;
+}
+
+@media only screen and (max-width: 991px) {
+    .title-style-twelve span img {
+        display: block;
+        bottom: -10px;
+    }
+}
+
+/* Ayata Pre Loader animation */
+.ctn-preloader .animation-preloader .txt-loading .letters-loading{
+    font-family: 'gordita';
+    letter-spacing: 0px;
+}
+
+
+/* Ayata Header */
+.logo h3{
+    font-family: 'gordita';
+    font-weight: 500;
+}
+
+.logo a {
+    overflow: hidden;
+}
+
+.logo h1{
+    font-family: 'gordita';
+    font-weight: 500;
+    text-indent: -9999%;
+    position: absolute;
+    z-index: -1;
+    opacity: 0;
+}
+
+.logo img{
+    height: 100px!important;
+    transform: scale(1);
+    transition: all 0.3s;
+}
+
+.sticky-menu.fixed .logo img{
+    /* height: 80px!important; */
+    transform: scale(0.8);
+}
+
+@media screen and (max-width: 991px){
+    .logo img{
+        height: 80px!important;
+        transform: scale(1);
+        transition: all 0.3s;
+    }
+}
+
+.theme-menu-five .navbar-nav .nav-item .nav-link{
+    position: relative;
+}
+
+.theme-menu-five .navbar-nav .nav-item .nav-link.active{
+    text-decoration: none;
+}
+
+.theme-menu-five .navbar-nav .nav-item .nav-link.active:after {
+    content: '';
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 4px;
+    border-radius: 5px;
+    background: #ffb840;
+    opacity: 0.9;
+    z-index: -1;
+    margin-top: 0px;
+}
+
+.ayata-header-section .nav-item{
+    position: relative;
+}
+
+.ayata-header-section .nav-item img{
+    position: absolute;
+    bottom: 20px;
+    width: 100%;
+}
+
+@media only screen and (max-width: 991px) {
+    .theme-menu-five .navbar-nav .nav-item .nav-link.active:after {
+        width: 100px;
+    }
+  }
+
+
+
+
+/* Ayata hero section */
+.illustration-container img{
+    height: auto!important;
+    width: 100%!important;
+}
+
+.ayata-hero-section.hero-banner-eleven {
+    margin: 50px 0 0;
+    padding: 80px 0;
+}
+
+.ayata-hero-section.hero-banner-eleven .illustration-container{
+    position: relative;
+    top: auto;
+    right: auto;
+    max-width: 100%;
+}
+
+@media only screen and (max-width: 768px){
+    .ayata-hero-section.hero-banner-eleven {
+        margin: 0px 0 0;
+    }
+
+    .ayata-hero-section.hero-banner-eleven .illustration-container{
+        padding-top: 60px;
+    }
+}
+
+
+
+
+/* Ayata feature */
+.ayata-features-section .block-style-thirtyTwo{
+    padding: 30px;
+    width: 100%;
+}
+
+.ayata-features-section .block-style-thirtyTwo .text p{
+    padding: 12px 0 22px;
+}
+
+.ayata-features-section .block-style-thirtyTwo .icon{
+    margin-bottom: 22px;
+}
+
+.ayata-features-section .block-style-thirtyTwo .text{
+    width: 100%;
+    padding: 0px;
+}
+
+.ayata-features-section ul{    
+    padding: 12px 0 22px;
+    padding-left: 20px; 
+}
+
+.ayata-features-section li{
+    list-style: disc;
+    font-size: 17px;
+    line-height: 1.6em;
+}
+
+
+
+
+
+
+/* Essential Section */
+.ayata-essential-section .img-gallery{
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+/* Ayata Integration client */
+.useable-tools-section-four.ayata-integration{
+    padding-top: 100px;
+}
+
+.useable-tools-section-four.ayata-integration .logo-container{
+    background: #EBF3F8;
+}
+
+.useable-tools-section-four.ayata-integration .logo-container .inner-wrapper{
+    padding: 0px 30px;
+}
+
+.useable-tools-section-four.ayata-integration .logo-container .icon {
+    height: 140px;
+    background: #fff;
+    padding: 0px 30px;
+    margin: 30px 0;
+}
+
+.ayata-integration.useable-tools-section-four .logo-container .line-two{
+    transform: translateY(0px);
+}
+
+@media only screen and (max-width: 576px){
+
+    .ayata-integration.useable-tools-section-four .logo-container .line-two{
+        margin-bottom: 30px;
+    }
+
+    .useable-tools-section-four.ayata-integration .logo-container .icon{
+        margin: 30px 0 0px;
+    } 
+}
+
+
+
+
+
+/* Ayata Title underline */
+.title-style-twelve span img{
+    z-index: 0;
+}
+
+
+/* Ayata Contact Us */
+.ayata-contact-us.contact-us-light{
+    background: linear-gradient(45deg, #FBF5ED, #ffebea);
+}
+
+.ayata-contact-us .form-style-light .input-group-meta input,
+.ayata-contact-us .form-style-light .input-group-meta textarea{
+    font-family: 'gordita' !important;
+}
+
+
+/* Hubspot Contact Us */
+
+.hs_phone.hs-phone.hs-fieldtype-phonenumber{
+    display: none;
+}
+
+.hs_email.hs-email.hs-fieldtype-text.field.hs-form-field{
+    width: 100%;
+}
+
+.hs_email.hs-email.hs-fieldtype-text.field.hs-form-field .hs-input{
+    width: 100%;
+}
+
+
+/* Ayata Footer Section */
+.theme-footer-seven .footer-list a{
+    position: relative;
+}
+
+.theme-footer-seven .footer-list a:hover{
+    text-decoration: none;
+}
+
+.theme-footer-seven .footer-list a:hover:after {
+    content: '';
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 4px;
+    border-radius: 5px;
+    background: #ffb840;
+    opacity: 0.9;
+    z-index: -1;
+    margin-top: -4px;
+}
+
+.theme-footer-seven .newsletter p{
+    padding: 0px;
+}
+
+.theme-footer-seven .newsletter .info{
+    padding-bottom: 20px;
+}
+
+.contact-us-light:before{
+    bottom: -80px;
+}
